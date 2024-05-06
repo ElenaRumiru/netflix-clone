@@ -6,7 +6,6 @@ const Main = () => {
   const [movies, setMovies] = useState([]);
 
   const movie = movies[Math.floor(Math.random() * movies.length)];
-  const baseImgSrc = `https://image.tmdb.org/t/p/w500` + `&{movie?.backdrop_path}`;
 
   useEffect(() => {
     axios.get(requests.requestPopular).then((response) => {
@@ -16,7 +15,7 @@ const Main = () => {
   
 
   const truncateString = (str, num) => {
-    if(str.length > num) {
+    if (str?.length > num) {
       return str.slice(0, num) + '...';
     } else {
       return str;
