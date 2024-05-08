@@ -1,7 +1,7 @@
 # Netflix Clone
-Netflix-clone project which immitate basic functionality.
-Link: https://netflix-clone-83226.web.app/
-Created by Rumiantseva (Ilinskaya) Elena
+- Netflix-clone project which immitate basic functionality.
+- Link: https://netflix-clone-83226.web.app/
+- Created by Rumiantseva (Ilinskaya) Elena
 
 
 ### Technologies:
